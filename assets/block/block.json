@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "lazy-load-videos-and-sticky-control/llvasc",
+  "version": "0.1.0",
+  "title": "LLVASC",
+  "category": "widgets",
+  "icon": "myicons dashicons-playlist-video",
+  "description": "Lazy load your videos and sticky to bottom of window",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "videoType": {
+      "type": "string",
+      "default": "youtube"
+    },
+    "videoID": {
+      "type": "string",
+      "default": ""
+    },
+    "videoURL": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "llvasc",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
